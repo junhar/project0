@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>project 0 - welcome!</title>
+    <link rel="stylesheet" href="styles.css">
+
+    <!--
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    -->
+
+    <meta name="viewpoint" content="width=divice-width, initial-scale=1.0">
+
+    <style>
+      #list {
+          font-size: 14px;
+          font-family: Verdana, Tahoma, Arial;
+      }
+
+      @media print {
+        .screen-only {
+          display: none;
+        }
+      }
+
+      .button {
+        background-color: limegreen;
+        width: 130px;
+        border: none;
+        color: white;
+        padding: 10px 20px;
+        text-align: center;
+        font-size: 16px;
+        margin: 4px 2px;
+        border-radius: 8px;
+        cursor: pointer;
+      }
+
+      .button1 {background-color: darkorange;}
+      .button2 {background-color: slateblue;}
+      .button3 {background-color: plum;}
+      .button4 {background-color: skyblue;}
+
+      .footer {
+        background-color: #ffffff;
+      }
+
+      hr {
+        height: 1px;
+        border-width: 0;
+        color: gray;
+      }
+
+      .container {
+        display: flex;
+        flex-wrap: wrap;
+        /*grid-template-columns:auto auto auto auto;*/
+        backgrond-color: #fffffc;
+        padding: 20px;
+        margin: 15px;
+      }
+
+      .container > div {
+        background-color: gold;
+        border: none;
+        padding: 15px;
+        font-size: 14px;
+        text-align: center;
+      }
+
+      li {
+        font-family: Times, verdana;
+        font-size: 16px;
+        font-color: maroon;
+      }
+
+    </style>
+
+  </head>
+  <body>
+    <div class="screen-only">
+      <h3>welcome to hogwarts school of witchcraft and wizardry</h3>
+      <br>
+      <center><img src="hogwarts.jpg" width = "250px"></center>
+      <br>
+      <hr noshade = "noshade">
+      <div id="top" class="container">
+        <div class="grid-item"><a href="flexbox.html">Headmaster's office</a></div>
+        <div class="grid-item"><a href="alert.html">Houses</a></div>
+        <div class="grid-item"><a href="schedule.html"</a>Daily schedule</div>
+        <div class="grid-item"><a href="form.html">Form</a></div>
+        <div class="grid-item">GIT</div>
+        <div class="grid-item">item 6</div>
+        <div class="grid-item">item 7</div>
+        <div class="grid-item">item 8</div>
+      </div>
+      <hr noshade = "noshade">
+    </div>
+
+    <div id="top">
+    </div>
+
+
+    <br>
+
+    <table>
+
+
+    </table>
+
+    <div id="list">
+
+    <P>If you receive an admission letter from Hogwarts...</p>
+
+    <P>Hogwarts First-Year studetns require:</P>
+    <ul>
+      <li>Uniform</li>
+        <ul>
+          <li>Three Sets of Plain Work Robes (Black)</li>
+          <li>One Plain Pointed Hat (Black) for day wear</li>
+          <li>One Pair of Protective Gloves (dragon hide or similar)</li>
+          <li>One Winter Cloak (Black, silver fasternings)</li>
+        </ul>
+      <br>
+      <li>Books</li>
+        <ul>
+          <li>The Standard Book of Spells, Grade 1 by Miranda Goshawk</li>
+          <li>A History of Magic by Bathilda Bagshot</li>
+          <li>Magical Theory by Adalbert Waffling</li>
+          <li>A Beginner's Guide to Transfiguration by Emeric Switch</li>
+          <li>One Thousand Magical Herbs and Fungi by Phyllida Spore</li>
+          <li>Magical Drafts and Potions by Arsenius Jigger</li>
+          <li>Fantastic Beasts and Where to Find Them by Newt Scamander</li>
+          <li>The Dark Forces: A Guide to Self-Protection by Quentin Trimble</li>
+        </ul>
+      <br>
+      <li>Other Equipment</li>
+        <ul>
+          <li> 1 Wand</li>
+          <li> 1 Cauldron (pewter, standard size 2)</li>
+          <li> 1 set of glass or crystal phials</li>
+          <li> 1 telescope </li>
+          <li> 1 set of brass scales </li>
+          <li> Students may also bring an Owl, a Cat, or a Toad.
+        </ul>
+    </ul>
+    <P>PARENTS ARE REMINDED THAT FIRST YEARS ARE NOT ALLOWED THEIR OWN BROOMSTICKS.</P>
+
+    </div>
+
+    <div id="middle">
+    </div>
+
+    <br>
+
+    <footer>
+    <div id = "bottom" class ="footer">
+      <p class = "screen-only">
+        <button class = "button">Like it!</button>
+        <button class = "button button1">Follow us</button>
+        <button class = "button button2">Contact us</button>
+        <button class = "button button3">Help</button>
+        <button class = "button button4">Privacy</button>
+      </p>
+    </div>
+    </footer>
+
+  </body>
+</html>
